@@ -4,7 +4,14 @@ A Game Boy Pocket transplanted into a DMG Game Boy form factor
 ## Summary
 The Game Boy Pocket (MGB-001) form factor, while aesthetically pleasing has a number of issues with its design: AAA batteries, hand-cramping size, small buttons, and lack of overally weight and heft.
 This project attempts to allieviate some of these concerns by re-creating a DMG-CPU board using a mix of transplanted and off-the-shelf components, but with the MGB CPU.
-This project is in the broadest sense a fork of [Kamicane's Super DMG](https://github.com/kamicane/Super-DMG-01) (and borrows very heavily from that design)
+It is in the broadest sense a fork of [Kamicane's Super DMG](https://github.com/kamicane/Super-DMG-01) (and borrows very heavily from that design)
+
+<img src="https://github.com/ConsolesandCasks/CPU-MGB-Heavy/blob/main/MGB_Heavy_1_front.png" width=400 height=400>  <img src="https://github.com/ConsolesandCasks/CPU-MGB-Heavy/blob/main/MGB_Heavy_1_back.png" width=400 height=400>
+
+## Notes
+Most of the SMD components that are available on the MGB I've replaced, compared to the original Super DMG project, to match the MGB schematic.
+I have also (possibly temporarily) removed the USB port and wires/connectors associated with Lipo usage until I've done some testing of my own.
+This project is UNTESTED as of this version of the readme (Aug 14 2023) - current repository contains this readme, and forked materials only. KiCad project files and Gerbers will be added once I've tested the initial design.
 
 ## Credits
 [Kamicane](https://github.com/kamicane/) for the [Super DMG](https://github.com/kamicane/Super-DMG-01) project that serves as a base for this project
@@ -22,7 +29,8 @@ This project is in the broadest sense a fork of [Kamicane's Super DMG](https://g
 If I do implement a DC jack, it will likely be the one used in [this video by Joe Ostrander](https://www.youtube.com/watch?v=d2NDXVqlKTY) of yet another DMG replacement PCB
 
 ## Bill of Materials (BOM)
-The complete BOM is included in an excel spreadsheet (including replacement passive component numbers for missing transplant items). All DMG parts can be harvested from a broken DMG instead as long as the part is in working condition
+The complete BOM will be included in an excel spreadsheet once I have tested the board (including replacement passive component numbers for missing transplant items). All DMG parts can be harvested from a broken DMG instead as long as the part itself is in working condition
+
 To give a high-level breakdown, this is what you'll need:
 * Original Game Boy Pocket console or motherboard
   * Everything* required for this build comes from above the cartridge slot. Great news if you're using the bottom half for a CHOP method Pocket Color  <sub>*C32 and C33 can be reused but it is inadvised. I have replaced these with new Tantalum capacitors in the BOM per Kamicane's original design</sub>
@@ -45,3 +53,6 @@ To give a high-level breakdown, this is what you'll need:
 * [DMG Volume Knob](https://www.aliexpress.us/item/3256804088642332.html)
 * [DMG Battery Contacts](https://www.aliexpress.us/item/3256801650618764.html)
 * DMG Speaker (note, with the ViS audio board you may need a different speaker as referenced in his repository)
+
+## License
+This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
