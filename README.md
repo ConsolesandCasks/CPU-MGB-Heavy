@@ -14,7 +14,7 @@ I've rerouted the board for MGB pinout, removed the VRAM IC and replaced the bul
 <img src="https://github.com/ConsolesandCasks/CPU-MGB-Heavy/blob/main/MGB_Heavy_1_front.png" width=400 height=400>  <img src="https://github.com/ConsolesandCasks/CPU-MGB-Heavy/blob/main/MGB_Heavy_1_back.png" width=400 height=400>
 
 ## Notes
-Most of the SMD components that are available on the MGB are re-utilized, but I'll provide a BOM
+Most of the SMD components that are available on the MGB are re-utilized, but I'll provide a BOM on release
 
 I have also (possibly temporarily) removed the USB port and wires/connectors associated with Lipo usage until I've done some testing of my own. Rev 1.1 adds an optional OEM style DC jack using new parts.
 
@@ -39,24 +39,27 @@ DC jack idea from [this video by Joe Ostrander](https://www.youtube.com/watch?v=
 The complete BOM will be included in an excel spreadsheet including replacement passive component numbers for anything that you are unable to transplant. All DMG parts can be harvested from a broken DMG instead as long as the part itself is in working condition, but I'd advise using an alternative.
 
 To give a high-level breakdown, this is what you'll need:
-* Original Game Boy Pocket console or motherboard
+* **Original Game Boy Pocket** console or motherboard
   * Everything* required for this build comes from above the cartridge slot. Great news if you're using the bottom half for a CHOP method Pocket Color  <sub>*C32 and C33 can be reused but it is inadvised. I have replaced these with new Tantalum capacitors in the BOM per Kamicane's original design</sub>
-* Funnyplaying DMG IPS shell as well as buttons and membranes or suitable alternatives
-* Funnyplaying DMG IPS Screen Kit (w/ front board)
-  * Other IPS kits may work too as long as they have a front board, and I've left the VEE wire for an original front board, but I have not tested this and take no responsibility for any damage or issues using this would cause.
-* Audio Board - one of the following:
+* **DMG compatible shell** as well as **buttons** and **membranes** (or suitable alternatives)
+  * IPS kits should use a shell designed for the IPS kit - OEM front boards can use OEM shells
+* **Screen Kit** - one of the following:
+  * Funnyplaying DMG IPS Screen Kit (w/ front board)
+  * OEM DMG Front board (tested compatible as long as the VEE line is intact) - *this requires an original DMG power supply board* and will not work with alternate boards that do not carry VEE
+  * Other IPS kits may work too as long as they have a front board but are currently untested
+* **Audio Board** - one of the following:
   * [Kamicane's Super DMG Jack](https://github.com/kamicane/Super-DMG-01/tree/main/super-dmg-jack)
   * [ViS Modding DMG Audio Board](https://github.com/VISmodding/VIS_Game_Boy_DMG/)
   * [Bucket Mouse DMGC-HDP](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-HDP-01) requires original DMG headphone jack
-  * Original DMG Headphone Board
-* Power Board - one of the following:
+  * OEM DMG Headphone Board
+* **Power Board** - one of the following:
   * [Bucket Mouse DMGC-PWR](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01) - NOT COMPATIBLE WITH OEM SCREENS
-  * Original DMG Power Board
+  * OEM DMG Power Board
   * Other replacement power boards might be compatible, but I have not tested them, use at your own risk
     * PLEASE NOTE: I will not help you troubleshoot other people's headphone and power board designs, bug them if you have issues 
-* [Replacement Power Switch](https://www.lcsc.com/product-detail/Slide-Switches_HOOYA-SK-24D02G3_C2939338.html) (or original harvested/NOS DMG power switch)
+* [Replacement Power Switch](https://www.lcsc.com/product-detail/Slide-Switches_HOOYA-SK-24D02G3_C2939338.html) (or OEM  harvested/NOS DMG power switch)
 * [DMG Cartridge Slot](https://www.aliexpress.us/item/3256802533298738.html)
-* DMG Link Port (harvested from 4 player adapter DMG-007 or original DMG)
+* DMG Link Port (harvested from 4 player adapter DMG-007 or OEM DMG)
 * [DMG Volume Knob](https://www.aliexpress.us/item/3256804088642332.html)
 * [DMG Battery Contacts](https://www.aliexpress.us/item/3256801650618764.html)
 * DMG Speaker (note, with the ViS audio board you may need a different speaker as referenced in his repository)
