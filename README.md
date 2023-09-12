@@ -63,7 +63,7 @@ To give a high-level breakdown, this is what you'll need:
 * [DMG Volume Knob](https://www.aliexpress.us/item/3256804088642332.html)
 * [DMG Battery Contacts](https://www.aliexpress.us/item/3256801650618764.html)
 * DMG Speaker (note, with the ViS audio board or Kamicane's Super DMG Jack Amp you may need a different speaker as referenced in those repositories)
-* [Replacement DC jack (DC-002)](https://www.lcsc.com/product-detail/AC-DC-Power-Connectors_XKB-Connectivity-DC-002-2-0A-1-3_C381119.html) (can be disabled via solder jumper) - there is an additional fuse and diode I've added for use with this as well - they may not be necessary but are in the BOM as a precaution.
+* [Replacement DC jack (DC-002)](https://www.lcsc.com/product-detail/AC-DC-Power-Connectors_XKB-Connectivity-DC-002-2-0A-1-3_C381119.html) (can be disabled via solder jumper) - there is an additional fuse and diode I've added for use with this as well - they may not be necessary but are in the BOM as a precaution. There are multiple versions of this jack - make sure you get one that has a 1.3mm inner diameter and at least 1.0A max current rating.
 
 ## License
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
