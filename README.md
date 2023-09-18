@@ -20,6 +20,8 @@ I have also removed the USB port and wires/connectors associated with Lipo usage
 
 Current repository contains this readme, forked materials, and schematic and gerbers for Rev 1.1. KiCad project files and a full BOM reference will be added at before the end of September 2023.
 
+Gerber files for the latest revision are included in *MGB_Heavy_JLC_r1_1.zip*
+
 ## Credits
 [Kamicane](https://github.com/kamicane/) for the [Super DMG](https://github.com/kamicane/Super-DMG-01) project that serves as a base for this project
 
@@ -64,6 +66,10 @@ To give a high-level breakdown, this is what you'll need:
 * [DMG Battery Contacts](https://www.aliexpress.us/item/3256801650618764.html)
 * DMG Speaker (note, with the ViS audio board or Kamicane's Super DMG Jack Amp you may need a different speaker as referenced in those repositories)
 * [Replacement DC jack (DC-002)](https://www.lcsc.com/product-detail/AC-DC-Power-Connectors_XKB-Connectivity-DC-002-2-0A-1-3_C381119.html) (can be disabled via solder jumper) - there is an additional fuse and diode I've added for use with this as well - they may not be necessary but are in the BOM as a precaution. There are multiple versions of this jack - make sure you get one that has a 1.3mm inner diameter and at least 1.0A max current rating.
+* 
+## Extras
+*sdmg_1.8jb_gerbers.zip* is a standard Super DMG CPU 1.8 board with the switch, DC jack, and some of the pad changes noted above but still routed to utilize the DMG or Super Game Boy CPU.
+These files also fix the Link Port routing that is reversed on the release version Super DMG 1.8 and earlier.
 
 ## License
 This work is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License.](http://creativecommons.org/licenses/by-sa/4.0/)
