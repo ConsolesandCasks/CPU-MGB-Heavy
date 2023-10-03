@@ -18,7 +18,7 @@ Most of the SMD components that are available on the MGB are re-utilized, but I'
 
 I have also removed the USB port and wires/connectors associated with Lipo usage. Future revisions may re-implement this in some form. Rev 1.1 adds an optional OEM style DC jack using new parts.
 
-Current repository contains this readme, forked materials, and schematic and gerbers for Rev 1.1. KiCad project files and a full BOM reference will be added at before the end of September 2023.
+Current repository contains this readme, forked materials, schematic and gerbers, KiCad project files and a full BOM reference for rev 1.1.
 
 Gerber files for the latest revision are included in *MGB_Heavy_JLC_r1_1.zip*
 
@@ -38,9 +38,9 @@ Gerber files for the latest revision are included in *MGB_Heavy_JLC_r1_1.zip*
 DC jack idea from [this video by Joe Ostrander](https://www.youtube.com/watch?v=d2NDXVqlKTY) of yet another DMG replacement PCB
 
 ## Bill of Materials (BOM)
-The complete BOM will be included in an excel spreadsheet including replacement passive component numbers for anything that you are unable to transplant. All DMG parts can be harvested from a broken DMG instead as long as the part itself is in working condition, but I'd advise using an alternative.
+The complete BOM for the board itself is included in the excel spreadsheet including replacement passive component numbers for anything that you are unable to transplant. All DMG parts can be harvested from a broken DMG instead as long as the part itself is in working condition, but I'd advise using an alternative.
 
-To give a high-level breakdown, this is what you'll need:
+To give a high-level breakdown for the remainder, this is what you'll need:
 * **Original Game Boy Pocket** console or motherboard
   * Everything* required for this build comes from above the cartridge slot. Great news if you're using the bottom half for a CHOP method Pocket Color  <sub>*C31 and C32 can be reused but it is inadvised. I have replaced these with new Tantalum capacitors in the BOM per Kamicane's original design</sub>
 * **DMG compatible shell** as well as **buttons** and **membranes** (or suitable alternatives)
