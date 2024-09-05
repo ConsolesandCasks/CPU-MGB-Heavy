@@ -56,6 +56,7 @@ To give a high-level breakdown for the remainder, this is what you'll need:
   * OEM DMG Headphone Board (tested)
 * **Power Board** - one of the following:
   * [Bucket Mouse DMGC-PWR](https://github.com/MouseBiteLabs/Game-Boy-DMG-Color/tree/main/DMGC-PWR-01) - NOT COMPATIBLE WITH OEM SCREENS (tested) - (use JP5 and don't populate C23, U5, C24, and R9; wire pins as labeled on both boards, leaving "-18V" on the MGB Heavy and "DC" on the power board unconnected)
+  * [DMG Frogulator](https://froggocustoms.com/products/dmg-frogulator-dc-regulator-battery-indicator) - NOT COMPATIBLE WITH OEM SCREENS (tested) - wire as you would an OEM regulator
   * OEM DMG Power Board (tested) (use the power management IC U5 and supporting components - connect to pins labeled CONV, starting with the red wire to +5V, leaving "BAT+" unconnected)
   * Other replacement power boards might be compatible, but I have not tested them, use at your own risk
     * PLEASE NOTE: I will not help you troubleshoot other people's headphone and power board designs, bug them if you have issues 
